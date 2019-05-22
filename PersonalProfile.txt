@@ -1,0 +1,17 @@
+aPersonal Profile Site:
+
+A website specifically designed to showcase my personal skillset and profile, this project will provide basic and detailed displays which include known programming languages and expertise for each, frameworks used with details regarding the implementations done, other skills and field of knowledge etc.
+
+There will be a couple of pages for this site, included are:
+-HOME
+-PROFILE
+-ABOUT
+-CONTACT US
+
+HOME page would include the basic overall representation of all other pages. A summarized display of the pages.
+
+PROFILE page includes photos, basic info, educational background, skills and knowledge, and other personal info.
+
+ABOUT page displays a summarized objective.
+
+CONTACT US page includes all available contact details
