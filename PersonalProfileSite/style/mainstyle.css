@@ -4,12 +4,55 @@
   border: 0px;
 }
 
+header {
+  background-image: url("../res/images/lance-anderson-213491-unsplash.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+main {
+  margin: 0% 5vw;
+  background-color: darkslategray;
+  box-shadow: 2px 2px black;
+}
+
+#logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -75%);
+  z-index: 999;
+  color: white;
+  text-shadow: 1.5px 1.5px black;
+}
+
+#about {
+  position: absolute;
+  max-width: 30%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+
+}
+
+#nav {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 25%);
+  z-index: 999;
+  color: white;
+  text-shadow: 1.5px 1.5px black;
+}
+
 .mainGridWrapper {
   display: grid;
-  grid-auto-rows: 1000px;
+  grid-auto-rows: 100vh;
 }
 
 .navItem {
   position: relative;
   display: inline-block;
+  margin: 0px 0.5vw;
 }
