@@ -5,15 +5,11 @@
 }
 
 header {
-  background-image: url("../res/images/lance-anderson-213491-unsplash.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
+  background-color: gray;
 }
 
 main {
   margin: 0% 5vw;
-  background-color: darkslategray;
-  box-shadow: 2px 2px black;
 }
 
 #logo {
@@ -33,7 +29,12 @@ main {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 25px;
-
+  opacity: 0;
+  animation-name: fadein;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
 }
 
 #nav {
@@ -55,4 +56,13 @@ main {
   position: relative;
   display: inline-block;
   margin: 0px 0.5vw;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
